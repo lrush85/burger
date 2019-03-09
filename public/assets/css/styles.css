@@ -1,57 +1,104 @@
 body {
-  margin: 0 auto;
-  padding: 0 540px;
+  background-image: url("../images/free-burger-vector.jpg");
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+  background-color: #f4ebe1;
+  padding: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#main img {
+  background-image: #f3cd78;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 150px;
+  height: auto;
+}
+
+#main h1 {
+  color: #eb1046;
+  font-size: 42px;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#main p {
+  color: #eb1046;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #eb1046;
+  background-color: #ffc448;
+  padding: 20px;
+  margin: 5px;
+  border: 3px solid #f4ebe1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 li {
-    padding: 5px;
-    margin: 5px;
-    background: #f4ebe1;
-    list-style-type: none;
-    font-size: 26px;
-    text-transform: capitalize;
-  }
-  
-  label {
-    font-weight: bold;
-    font-size: 18px;
-  }
-
-  input {
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    background-color: #fcfcfc;
-    border: 1px solid #333;
-    height: 20px;
-    width: 50%;
-}
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-
-  button {
-    background-color: rgb(192, 31, 31);
-    color: #fff;
-    margin-left: 40px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    font-size: 18px;
+  border: 3px solid #ffc448;
+  border-radius: 5px;
+  padding: 20px 40px;
+  margin: 20px 10px 20px -35px;
+  background: #f4ebe1;
+  list-style-type: none;
+  font-size: 22px;
+  text-transform: capitalize;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
-button:hover {
-  background-color: rgb(97, 14, 14);
+button {
+  display: block;
+  background-image: url("../images/burger.jpeg");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  color: #eb1046;
+  margin-left: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 22px;
+  font-weight: 700;
+  width: 80px;
+  height: 80px;
 }
-  
+
+.create-form {
+  background-color: #f4ebe1;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 18px;
+}
